@@ -1,14 +1,14 @@
 package com.fujias.atesting;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 import com.wefika.calendar.CollapseCalendarView;
 import com.wefika.calendar.manager.CalendarManager;
 
 import org.joda.time.LocalDate;
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 
     private CollapseCalendarView mCalendarView;
 
